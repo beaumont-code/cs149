@@ -1,0 +1,16 @@
+  545  npx expo run
+  546  clear
+  547  cd ~
+  548  mkdir cs149
+  549  cd cs149
+  550  git init
+  551  git remote add origin https://github.com/beaumont-code/cs149.git
+  552  git config --global user.email "beaumont.yin@sjsu.edu"
+  553  git config --global user.name "Beaumont Yin"
+  554  mkdir WS_bonus
+  555  cd WS_bonus
+  556  pwd
+  557  ls -latr
+  558  wget -O out.pdf https://tinyurl.com/yy94jltt
+  559  curl -L https://tinyurl.com/yy94jltt -o out.pdf
+  560  ls -latr

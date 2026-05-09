@@ -1,0 +1,16 @@
+  575  brew install qemu
+  576  [200~riscv64-unknown-elf-gcc --version~
+  577  riscv64-unknown-elf-gcc --version
+  578  cd ~/xv6-labs-2023
+  579  make clean
+  580  make qemu
+  581  cd ~/xv6-labs-2023
+  582  nano user/usertests.c
+  583  make clean
+  584  make qemu
+  585  cd ~/xv6-labs-2023
+  586  nano user/sleep.c
+  587  nano Makefile
+  588  make clean
+  589  make qemu
+  590  ./grade-lab-util sleep
